@@ -52,6 +52,7 @@ time.sleep(1)
 
 # clicks on target icon
 
+
 """
 icons = driver.find_elements(By.XPATH, '//a[@href="https://www.nationstates.net/page=challenge?entity_name=sterza"]')
 for i in icons:

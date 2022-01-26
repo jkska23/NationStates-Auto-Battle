@@ -10,7 +10,8 @@ requirements:
 - Downloaded version of the chromium driver that matches with your chrome browser
 
 The following link will take you to the WebDriver download links:
-https://sites.google.com/a/chromium.org/chromedriver/downloads
+https://sites.google.com/chromium.org/driver/downloads?authuser=0
+
 Your version of the Chrome browser can be found by clicking the three dots in the upper right corner of the browser, then clicking on "help", then clicking on "About Google Chrome"
 
 # More setting up

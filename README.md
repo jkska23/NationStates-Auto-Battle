@@ -15,7 +15,10 @@ Your version of the Chrome browser can be found by clicking the three dots in th
 
 # More setting up
 You must set up a file named info.txt with the appropriate texts in following order:
-yourUsername
-password
-https://www.nationstates.net/
-usernameOfTarget
+
+yourUsername  
+password  
+https://www.nationstates.net/  
+usernameOfTarget  
+
+It is to be noted that your file is to be set up exactly as shown with the parameters in its own separate lines. There must be no other line spaces.

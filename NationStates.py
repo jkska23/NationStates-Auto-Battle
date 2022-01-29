@@ -12,7 +12,7 @@ s = []
 
 try:
     with open("info.txt") as f:
-        s = f.read().split("\n") # email, pw, web link
+        s = f.read().split("\n") # username, pw, web link, targetName
 except FileNotFoundError:
     print("File not found")
 
@@ -53,6 +53,7 @@ time.sleep(1)
 # clicks on target icon
 
 
+# target icon element selection attempts
 """
 icons = driver.find_elements(By.XPATH, '//a[@href="https://www.nationstates.net/page=challenge?entity_name=sterza"]')
 for i in icons:
@@ -70,12 +71,11 @@ time.sleep(3)
 
 driver.quit()
 
+#useful commands
 # driver.close() close tab
 # driver.quit() quits browser
 # driver.back() # back a page
 # driver.forward() # forward a page
-# element.clear() if it already had keys sent, then will append to it
 
 #password = WebDriverWait(driver, 10).until(
 #    EC.presence_of_element_located((By.NAME, 'password'))
-#)
